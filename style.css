@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nanum Pen Script', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+#rainbow{
+    height: 100px;
+}
+
+h1{
+    font-size: 80px;
+    padding: 20px;
+}
+
+.alphabet {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.card {
+    width: 60%;
+    background-color: rgb(245, 229, 229, 0.4);
+    padding: 6%;
+    margin: 6%;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+/*
+.playing {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #41404b;
+}
+*/
+#red {
+    color: #CB3E3E;
+}
+
+#orange {
+    color: #EF9606;
+}
+
+#yellow {
+    color: #E8AB01;
+}
+
+#green {
+    color: #3ABB18;
+}
+
+#blue{
+    color: #31A6DD;
+}
+
+#purple {
+    color: #8070E2;
+}
+
+.letter {
+    font-size: 100px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+    transform: scale(1);
+    color: #CB3E3E;
+    font-weight: 700;
+}
+
+.dark-mode-icon{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 2rem;
+}
+
+a:hover, 
+a:focus{
+    transform: scale(1.1);
+}
+
+.dark {
+    background-color: #41404b;
+    color: rgb(169, 177, 182);
+}
+
+.dark .card {
+    background-color: rgba(245, 243, 243, 0.4);
+}
+
+.dark #purple {
+    color: #594cac;
+}
+
